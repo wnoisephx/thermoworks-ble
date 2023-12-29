@@ -1,0 +1,6 @@
+{
+  "name": "ThermoWorks",
+  "homeassistant": "2022.12.0",
+  "domains": ["binary_sensor", "sensor", "climate", "number"],
+  "iot_class": "Local Push"
+}
