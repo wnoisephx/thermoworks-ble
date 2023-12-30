@@ -1,0 +1,13 @@
+{
+  "domain": "Thermoworks-ble",
+  "name": "ThermoWorks BLE",
+  "codeowners": ["@wnoisephx"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "",
+  "iot_class": "local_push",
+  "issue_tracker" : "",
+  "quality_scale": "platinum",
+  "requirements": [""],
+  "version": "2023.10.1"
+}
