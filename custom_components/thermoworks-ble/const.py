@@ -1,3 +1,5 @@
+DOMAIN = "detailed_hello_world_push"
+
 # Temperature Data
 CHARACTERISTIC_TEMPERATURE = "5F5F9010-OEOD-4BD4-B5DC-E4FF47A45984"
 

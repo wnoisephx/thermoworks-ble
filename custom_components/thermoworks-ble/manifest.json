@@ -1,13 +1,16 @@
 {
-  "domain": "Thermoworks-ble",
+  "domain": "thermoworks-ble",
   "name": "ThermoWorks BLE",
+  "bluetooth": [
+    {
+      "manufacturer_id": 25124
+    }
+  ],
   "codeowners": ["@wnoisephx"],
   "config_flow": true,
-  "dependencies": [],
+  "dependencies": ["bluetooth_adapters"],
   "documentation": "",
   "iot_class": "local_push",
-  "issue_tracker" : "",
-  "quality_scale": "platinum",
-  "requirements": [""],
-  "version": "2023.10.1"
+  "loggers": ["thermoworks_ble"],
+  "requirements": [""]
 }
