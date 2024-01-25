@@ -1,0 +1,48 @@
+> HCI Event: LE Meta Event (0x3e) plen 34
+    LE Advertising Report
+      ADV_IND - Connectable undirected advertising (0)
+      bdaddr 00:A0:50:B0:31:94 (Public)
+      Flags: 0x06
+      Complete local name: 'BlueDOT'
+      Unknown type 0xff with 8 bytes data
+      RSSI: -70
+> HCI Event: LE Meta Event (0x3e) plen 12
+    LE Advertising Report
+      SCAN_RSP - Scan Response (4)
+      bdaddr 00:A0:50:B0:31:94 (Public)
+      RSSI: -70
+
+          {
+            "name": "BlueDOT",
+            "address": "00:A0:50:B0:31:94",
+            "rssi": -83,
+            "advertisement_data": [
+              "BlueDOT",
+              {
+                "305": {
+                  "__type": "<class 'bytes'>",
+                  "repr": "b'\\x00\\xa0P\\xb01\\x94'"
+                }
+              },
+              {},
+              [],
+              -127,
+              -83,
+              []
+            ],
+            "details": {
+              "source": "E8:9F:6D:D2:BB:40",
+              "address_type": 0
+            }
+          },
+
+# Temperature Data
+CHARACTERISTIC_TEMPERATURE = "783F2991-23E0-4BDC-AC16-78601BD84B39"
+00-5C-00-00-00-A5-00-00-00-00-00-01-00-00-A0-50-B0-31-94-00
+00 or 03 - First Number is Probe Attached 00 or 03 for no probe
+5C - Second Number is Current Temp in Hex
+00-00-00 - Next 3 are unknown and don't change
+A5 - Sixth Number is the Alarm Temp in Hex 
+00-00-00-00-00 - Next 5 are unknown and don't change
+01-00 - Battery ?
+00-A0-50-B0-31-04-00 Last seven numbers are the mac address with 00 at the end

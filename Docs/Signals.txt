@@ -1,0 +1,101 @@
+> HCI Event: LE Meta Event (0x3e) plen 12
+    LE Advertising Report
+      SCAN_RSP - Scan Response (4)
+      bdaddr 00:A0:50:B0:31:94 (Public)
+      RSSI: -70
+		  
+		  {
+            "name": "TMW022",
+            "address": "24:62:AB:E0:C1:BE",
+            "rssi": -66,
+            "advertisement_data": [
+              "TMW022",
+              {
+                "25124": {
+                  "__type": "<class 'bytes'>",
+                  "repr": "b'\\xab\\xe0\\xc1\\xbe'"
+                }
+              },
+              {},
+              [],
+              -127,
+              -66,
+              []
+            ],
+            "details": {
+              "source": "E8:9F:6D:D2:BB:40",
+              "address_type": 0
+            }
+          }
+# Temperature Data
+CHARACTERISTIC_TEMPERATURE = "5F5F9010-OEOD-4BD4-B5DC-E4FF47A45984"
+71.4,0,71.7,0,70.2,0,0
+Probe 1 : Current Temperature,0 = Probe Attached
+Probe 1 : High Temperature,0
+Probe 1 : Low Temperature,0
+End : 0
+
+-63.0,3,-63.0,3,-63.0,3,0
+Probe 2 : Current Temperature,3 = No Probe
+Probe 2 : High Temperature,3
+Probe 2 : Low Temperature,3
+End : 0
+
+# Signals Probe Data
+CHARACTERISTIC_PROBE_1 = "0A990C1F-B61A-441C-8F7D-F775B6FF9400"
+160,32,1,CH 1,0.0
+Probe 1 : High Alarm Temperature
+Probe 1 : Low Alarm Temperature
+Probe 1 : 1
+Probe 1 : Channel
+Probe 1 : 0.0
+
+CHARACTERISTIC_PROBE_2 = "F7C21D1C-5CB9-4B9B-AB7E-E1D8E7A51724"
+CHARACTERISTIC_PROBE_3 = "CFACB2D0-2D81-4C82-A168-13314E38A338"
+CHARACTERISTIC_PROBE_4 = "C99C943F-DA4B-4EE3-92EC-C806006E9E7F"
+160,32,1,CH 4,0,0,255,0
+Probe 4 : High Alarm Temperature
+Probe 4 : Low Alarm Temperature
+Probe 4 : 4
+Probe 4 : Channel
+Probe 4 : 0.0
+Probe 4: 255,0 - Last Channel flag?
+
+# Wifi Data
+CHARACTERISTIC_WIFI = "B4F1D66A-ECAB-4E03-8B43-B9DF904EBCDF"
+MyWifi,1,iotservice.thermoworks.com,1
+SSID : 
+Flag : 1 - Connected?
+URL : 
+Flag : 1 = Connected?
+
+# Device Data
+CHARACTERISTIC_DATA = "3CE0C366-691F-43E6-B625-3F0912FF6EA7"
+100,67,0,24:62:ab:e0:c1:be,v4.21
+Unkown : 100
+Unknow : 67 - Battery Level
+Unknow : 0 - End of Above?
+Mac Address :
+Version : Firmware Version
+
+# unkown characteristics
+CHARACTERISTIC_UNKNOWN_1 = "7633F5BB-D0C6-478B-B031-D3A0D70C2A7E"
+Unknown : 1
+
+CHARACTERISTIC_UNKNOWN_2 = "01817E20-B0F3-4A21-A577-50EC2D9A2FCA"
+Unknown : NULL
+
+CHARACTERISTIC_UNKNOWN_3 = "E6DB3978-9BE6-4C08-B597-460987E304D3"
+Unknown : NULL
+
+CHARACTERISTIC_UNKNOWN_4 = "DB28403A-A7E1-4C2A-A109-A52913F50CC9"
+Unkown : NULL
+
+CHARACTERISTIC_UNKNOWN_5 = "E32E526F-D3F7-4686-B7AE-740662C7FA5D"
+Unknown : NULL
+
+CHARACTERISTIC_UNKNOWN_6 = "90BC0C13-7427-4552-9C7F-91AD2A95BF65"
+Unknown : NULL
+
+CHARACTERISTIC_UNKNOWN_7 = "4E8A02FE-BB42-452D-B573-E0645F03C230"
+Unknown : NULL

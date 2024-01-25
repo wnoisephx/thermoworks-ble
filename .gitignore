@@ -1,0 +1,8 @@
+# ignore the custom_components for now
+custom_components/thermoworks-ble/*
+custom_components/thermoworks-ble
+custom_components
+
+# also ignore the hacs.json for now as well
+hacs.json
+
